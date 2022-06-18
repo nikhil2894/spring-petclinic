@@ -392,5 +392,16 @@
       </build>
     </profile>
   </profiles>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0wgqjbkysrf3-artifactory-primary-0-releases</name>
+        <url>https://awsnikhil.jfrog.io/artifactory/default-maven-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0wgqjbkysrf3-artifactory-primary-0-snapshots</name>
+        <url>https://awsnikhil.jfrog.io/artifactory/default-maven-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
